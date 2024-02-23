@@ -1,0 +1,12 @@
+name: aiextractpy_env
+channels:
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+    - openai
+    - tiktoken
+    - pytest
+    - pyflakes
+    - pycodestyle
