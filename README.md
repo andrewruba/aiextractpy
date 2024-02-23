@@ -7,7 +7,7 @@ To use DataExtractor, clone the repository or copy the `DataExtractor.py` file i
 
 ## Usage
 
-'''python
+```python
 from src.aiextractpy.data_extractor import DataExtractor
 import configparser
 
@@ -30,4 +30,4 @@ if error:
 else:
     print("Extracted data:")
     print(data)
-'''
+```
